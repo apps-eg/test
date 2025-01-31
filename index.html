@@ -274,13 +274,13 @@
             <a href="https://www.instagram.com/eng_nabilkamal?igsh=MTdmdjdoeHA1ZzV4Yw%3D%3D&utm_source=qr" target="_blank" class="instagram">
                 <i class="fab fa-instagram"></i>
             </a>
-			<a href="https://www.facebook.com" target="_blank" class="facebook">
+			<a href="https://www.facebook.com/share/1BBaieD191/?mibextid=wwXIfr" target="_blank" class="facebook">
 				<i class="fab fa-facebook"></i>
 			</a>
-			<a href="https://wa.me/1234567890" target="_blank" class="whatsapp">
+			<a href="https://wa.me/201224423214" target="_blank" class="whatsapp">
 				<i class="fab fa-whatsapp"></i>
 			</a>
-            <a href="https://www.google.com/maps/place/%D8%A8%D8%B1%D9%88%D8%AA%D9%83+%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA+%D8%A7%D9%84%D8%AA%D8%B3%D9%88%D9%8A%D9%82%E2%80%AD/@31.0933681,29.7670373,17z/data=!4m11!1m2!2m1!1sAgencia+de+marketing!3m7!1s0x14f5956997f37773:0xe295c5ed0130088e!8m2!3d31.0933635!4d29.7696122!9m1!1b1!16s%2Fg%2F11h21pxjd3?entry=ttu&g_ep=EgoyMDI1MDEyMi4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="google">
+            <a href="https://www.google.com/maps/place/%D8%A8%D8%B1%D9%88%D8%AA%D9%83+%D9%84%D8%AE%D8%AF%D9%85%D8%A7%D8%AA+%D8%A7%D9%84%D8%AA%D8%B3%D9%88%D9%8A%D9%82%E2%80%AD/@31.0933681,29.7721871,17z/data=!3m1!4b1!4m6!3m5!1s0x14f5956997f37773:0xe295c5ed0130088e!8m2!3d31.0933635!4d29.7696122!16s%2Fg%2F11h21pxjd3?entry=ttu&g_ep=EgoyMDI1MDEyOC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="google">
                 <i class="fab fa-google"></i>
             </a>
 			  
@@ -298,7 +298,7 @@
             document.body.oncopy = function() { return false; }; 
             document.body.oncontextmenu = function() { return false; }; 
         });
-        emailjs.init("xx1V8hwwy6ZtGHr8Q");
+        emailjs.init("W1PG59F51IiUCw66x");
 
         const url = "https://script.google.com/macros/s/AKfycby-5hRF1SEIrSNeeEdD_yFOPfG1audcW1l6VynCNaoT3BdzesseBonRJp400VEgcnIKhA/exec";
 
@@ -342,7 +342,7 @@
         }
 
         function sendEmailNotification(customerEmail, customerName) {
-            const googleMapsLink = "https://maps.app.goo.gl/bZTbkWX2WaSziFZZ7"; 
+            const googleMapsLink = "https://maps.app.goo.gl/x6owNciKhHA78MKu7?g_st=com.google.maps.preview.copy"; 
 
             const emailParams = {
                 to_email: customerEmail,
@@ -351,7 +351,7 @@
                 googleMapsLink: googleMapsLink
             };
 
-            emailjs.send("service_2u0ehp8", "template_rm7gbrk", emailParams)
+            emailjs.send("service_hjbk5do", "template_zrbupce", emailParams)
                 .then(function(response) {
                     console.log("Email sent successfully", response);
                 }, function(error) {
