@@ -198,7 +198,7 @@
 
             h1 {
                 font-size: 1.5rem;
-                color: #4a4a4a;
+                color: rad;
             }
 
             .container {
@@ -293,10 +293,10 @@
 
     <script>
 	
-        document.addEventListener('DOMContentLoaded', function() {
+        //*document.addEventListener('DOMContentLoaded', function() {
             document.body.onselectstart = function() { return false; }; 
             document.body.oncopy = function() { return false; }; 
-            document.body.oncontextmenu = function() { return false; }; 
+            document.body.oncontextmenu = function() { return false; };
         });
 	
         emailjs.init("W1PG59F51IiUCw66x");
